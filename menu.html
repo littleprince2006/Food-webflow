@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <section class="head">
+            <div class="container-fluid bg-white border-bottom border-dark py-2 px-5 small  d-none d-lg-block">
+                <div class="d-flex align-items-center flex-wrap">
+
+                    <div class="d-flex align-items-center flex-wrap">
+                        <a href="mailto:info@ddsgnr.com" class="text-decoration-none text-black pe-3 border-end">
+                            Email:info@ddsgnr.com
+                        </a>
+
+                        <span class="px-3 border-end">Phone Number: 956 742 455 678</span>
+
+                        <span class="px-3 border-end">
+                            <span class="fw-bold">Opening Hours</span>
+                            <svg width="40" height="10" xmlns="http://www.w3.org/2000/svg" class="align-middle">
+                                <!-- x1, y1 = start point | x2, y2 = end point -->
+                                <line x1="5" y1="5" x2="35" y2="5" stroke="grey" stroke-width="1"
+                                    stroke-linecap="round" />
+                            </svg>
+                            Monday - Friday &nbsp; 8:00am to 9:00pm
+                        </span>
+
+                        <span class="ps-3">Saturday - Sunday &nbsp; 8:00am to 4:00pm</span>
+                    </div>
+
+                    <!-- right side: social icons image -->
+                    <div class="ms-auto">
+                        <a href="#"><img src="assests/Social Links.png" alt="social media" height="16"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="px-4 border-bottom border-dark">
+            <nav class="navbar navbar-expand-lg bg-white">
+                <div class="container-fluid px-4">
+
+
+                    <button class="navbar-toggler border-0 order-1" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- logo -->
+                    <a class="navbar-brand d-flex align-items-center gap-2 fw-bold mx-auto mx-lg-0 order-2 order-lg-1"
+                        href="./index.html">
+                        <span><img src="assests/Frame 1.png" alt=""></span>
+                        Ddsgnr
+                    </a>
+
+
+                    <button class="btn border-0 d-lg-none order-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#mobileSearch" aria-controls="mobileSearch" aria-expanded="false"
+                        aria-label="Open search">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                        </svg>
+                    </button>
+
+                    <div class="collapse w-100 order-5 d-lg-none mt-2" id="mobileSearch">
+                        <form action="index.html" method="get" role="search" class="input-group">
+                            <input class="form-control" type="search" name="q" placeholder="Search" aria-label="Search"
+                                required>
+                            <button class="btn btn-dark" type="submit" aria-label="Submit search">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+
+
+                    <div class="collapse navbar-collapse order-4 order-lg-2" id="mainNav">
+                        <ul class="navbar-nav nav-underline ms-auto align-items-lg-center gap-lg-3 small">
+                            <li class="nav-item">
+                                <a class="nav-link text-black border-bottom border-dark" aria-current="page"
+                                    href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link text-black" href="./welcome.html">Welcome</a></li>
+                            <li class="nav-item"><a class="nav-link text-black" href="./menu.html">Menu</a></li>
+                            <li class="nav-item"><a class="nav-link text-black" href="./contact.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link text-black"
+                                    href="./achievement.html">Achievements</a></li>
+                        </ul>
+
+                        <div class="d-flex align-items-center gap-2 ms-lg-4 mt-3 mt-lg-0">
+                            <form action="./index.html" method="get" role="search" class="d-none d-lg-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search"
+                                    aria-label="Search" />
+                                <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+                            </form>
+                            <a href="#" class="btn btn-dark btn-sm px-3">Book a table</a>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+        </section>
+
+        <!-- SPECIAL DISHES SECTION -->
+        <section class="container-fluid py-5 mt-5 text-center">
+            <h1 class="fw-bold mb-3">Our Special Dishes</h1>
+            <p class="small mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            <!-- category filter -->
+            <ul class="nav nav-underline justify-content-center gap-4 small">
+                <li class="nav-item"><a class="nav-link text-black" href="#">All</a></li>
+                <li class="nav-item"><a class="nav-link text-black" href="#">Rice</a></li>
+                <li class="nav-item"><a class="nav-link text-black" href="#">Swallow</a></li>
+                <li class="nav-item"><a class="nav-link text-black" href="#">Veggies</a></li>
+                <li class="nav-item"><a class="nav-link text-black active" aria-current="page" href="#">Sea Food</a>
+                </li>
+                <li class="nav-item"><a class="nav-link text-black" href="#">Drinks</a></li>
+                <li class="nav-item"><a class="nav-link text-black" href="#">Others</a></li>
+            </ul>
+
+            <!-- <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
+                                content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div> -->
+            <!-- dish cards -->
+            <div class="container mt-5 pt-4 text-start">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 gy-5">
+                    <div class="col">
+                        <div class="card h-100 border-0 bg-light p-3">
+                            <div class="bg-white mb-3">
+                                <img src="assests/Image7.png" alt="Two whole fish on a bamboo basket"
+                                    class="img-fluid w-100">
+                            </div>
+                            <h6 class="fw-bold small">Bengali Cut (without Head)</h6>
+                            <p class="small mb-3">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.
+                            </p>
+                            <div class="d-flex align-items-center gap-3 mt-auto">
+                                <a href="./payout.html?dish=d1" class="btn btn-outline-dark btn-sm px-3">Order
+                                    Now</a>
+                                <span class="fw-bold small">$62</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0 bg-light p-3">
+                            <div class="bg-white mb-3">
+                                <img src="assests/Image(5).png" alt="Bowl of red crawfish" class="img-fluid w-100">
+                            </div>
+                            <h6 class="fw-bold small">Bengali Cut (without Head)</h6>
+                            <p class="small mb-3">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.
+                            </p>
+                            <div class="d-flex align-items-center gap-3 mt-auto">
+                                <a href="./payout.html?dish=d2" class="btn btn-outline-dark btn-sm px-3">Order Now</a>
+                                <span class="fw-bold small">$62</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0 bg-light p-3">
+                            <div class="bg-white mb-3">
+                                <img src="assests/Image(4).png" alt="Whole fresh crab" class="img-fluid w-100">
+                            </div>
+                            <h6 class="fw-bold small">Steaks Freshwater Rohu Small</h6>
+                            <p class="small mb-3">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.
+                            </p>
+                            <div class="d-flex align-items-center gap-3 mt-auto">
+                                <a href="./payout.html?dish=d3" class="btn btn-outline-dark btn-sm px-3">Order Now</a>
+                                <span class="fw-bold small">$62</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0 bg-light p-3">
+                            <div class="bg-white mb-3">
+                                <img src="assests/Image(3).png" alt="Fresh oyster with basil" class="img-fluid w-100">
+                            </div>
+                            <h6 class="fw-bold small">Medium Prawns - Without Tail Seer (Surmai)</h6>
+                            <p class="small mb-3">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.
+                            </p>
+                            <div class="d-flex align-items-center gap-3 mt-auto">
+                                <a href="./payout.html?dish=d4" class="btn btn-outline-dark btn-sm px-3">Order Now</a>
+                                <span class="fw-bold small">$62</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0 bg-light p-3">
+                            <div class="bg-white mb-3">
+                                <img src="assests/Image(2).png" alt="Mackerel with lemon slices"
+                                    class="img-fluid w-100">
+                            </div>
+                            <h6 class="fw-bold small">Premium Grade Mackerel (Cleaned)</h6>
+                            <p class="small mb-3">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.
+                            </p>
+                            <div class="d-flex align-items-center gap-3 mt-auto">
+                                <a href="./payout.html?dish=d5" class="btn btn-outline-dark btn-sm px-3">Order Now</a>
+                                <span class="fw-bold small">$62</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0 bg-light p-3">
+                            <div class="bg-white mb-3">
+                                <img src="assests/Image(6).png" alt="Bowl of peeled prawns" class="img-fluid w-100">
+                            </div>
+                            <h6 class="fw-bold small">Basa Fillet (Platinum Grade)</h6>
+                            <p class="small mb-3">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.
+                            </p>
+                            <div class="d-flex align-items-center gap-3 mt-auto">
+                                <a href="./payout.html?dish=d6" class="btn btn-outline-dark btn-sm px-3">Order Now</a>
+                                <span class="fw-bold small">$62</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="bg-black text-white py-5 mt-5" data-bs-theme="dark">
+            <div class="container py-4">
+
+                <!-- newsletter + opening hours -->
+                <div class="row g-4 justify-content-between">
+                    <div class="col-lg-5">
+                        <p class="fw-bold small mb-1">Subscribe to our newsletter</p>
+                        <p class="small mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                        <p class="fw-bold small mb-3">Opening Hours</p>
+                        <div class="d-flex gap-3 small row col-lg-12">
+                            <div class="col-lg-5">
+                                <span class="d-block">Monday - Friday</span>
+                                <span class="d-block">8:00am to 9:00pm</span>
+                            </div>
+                            <div class="col-lg-5">
+                                <span class="d-block">Saturday - Sunday</span>
+                                <span class="d-block">8:00am to 4:00pm</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-5">
+                        <form class="d-flex gap-2 mb-2">
+                            <input type="email" class="form-control bg-transparent border-light text-white"
+                                placeholder="Enter your email" aria-label="Email address">
+                            <button type="submit" class="btn btn-outline-light">Subscribe</button>
+                        </form>
+                        <p class="small mb-0"><small>By subscribing you agree to with our
+                                <a href="#" class="text-white">Privacy Policy</a></small></p>
+                    </div>
+                </div>
+
+                <!-- logo + link columns -->
+                <div class="row g-4 mt-4 pt-4">
+                    <div class="col-12 col-lg-3">
+                        <a href="./index.html"
+                            class="d-flex align-items-center gap-2 fw-bold text-white text-decoration-none fs-5">
+                            <img src="assests/Frame 1 (2).png" alt="" height="26">
+                            Ddsgnr
+                        </a>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <h6 class="fw-bold small mb-4">Explore</h6>
+                        <ul class="list-unstyled small mb-0">
+                            <li class="mb-3"><a href="./menu.html" class="text-white text-decoration-none">Menu</a></li>
+                            <li class="mb-3"><a href="#" class="text-white text-decoration-none">Locations</a></li>
+                            <li class="mb-3"><a href="#" class="text-white text-decoration-none">Jobs</a></li>
+                            <li class="mb-3"><a href="#" class="text-white text-decoration-none">Contact Us</a></li>
+                            <li class="mb-3"><a href="#" class="text-white text-decoration-none">Communities Servies</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <h6 class="fw-bold small mb-4">Top Dishes</h6>
+                        <ul class="list-unstyled small mb-0">
+                            <li class="mb-3"><a href="#" class="text-white text-decoration-none">Bengali Cut (without
+                                    Head)</a>
+                            </li>
+                            <li class="mb-3"><a href="#" class="text-white text-decoration-none">Premium Grade Mackerel
+                                    (Cleaned)</a></li>
+                            <li class="mb-3"><a href="#" class="text-white text-decoration-none">Basa Fillet (Platinum
+                                    Grade)</a></li>
+                            <li class="mb-3"><a href="#" class="text-white text-decoration-none">Medium Prawns - Without
+                                    Tail
+                                    Seer (Surmai)</a></li>
+                            <li class="mb-3"><a href="#" class="text-white text-decoration-none">Bengali Cut</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <h6 class="fw-bold small mb-4">About Us</h6>
+                        <ul class="list-unstyled small mb-0">
+                            <li class="mb-3"><a href="#" class="text-white text-decoration-none">Contact</a></li>
+                            <li class="mb-3"><a href="#" class="text-white text-decoration-none">Help/Support</a></li>
+                            <li class="mb-3"><a href="#" class="text-white text-decoration-none">FAQ</a></li>
+                            <li class="mb-3"><a href="#" class="text-white text-decoration-none">Terms and
+                                    Conditions</a></li>
+                            <li class="mb-3"><a href="#" class="text-white text-decoration-none">Partners</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <hr class="my-5">
+
+                <!-- bottom bar -->
+                <div class="d-flex flex-wrap justify-content-between align-items-center gap-3 small">
+                    <div class="d-flex flex-wrap align-items-center gap-3">
+                        <span>2023 Ddsgnr. All right reserved.</span>
+                        <a href="#" class="text-white">Privacy Policy</a>
+                        <a href="#" class="text-white">Terms of Service</a>
+                        <a href="#" class="text-white">Cookies Settings</a>
+                    </div>
+
+                    <!-- social icons -->
+                    <div class="d-flex align-items-center gap-3">
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
+                            <img src="assests/social-facebook.png" alt="Facebook" height="20">
+                        </a>
+                        <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+                            <img src="assests/social-instagram.png" alt="Instagram" height="20">
+                        </a>
+                        <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Twitter">
+                            <img src="assests/social-twitter.png" alt="Twitter" height="20">
+                        </a>
+                        <a href="https://www.linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">
+                            <img src="assests/social-linkedin.png" alt="LinkedIn" height="20">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+
+    </body>
+
+</html>

@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <section class="head">
+            <div class="container-fluid bg-white border-bottom border-black py-2 px-5 small  d-none d-lg-block">
+                <div class="d-flex align-items-center flex-wrap g-3">
+
+                    <div class="d-flex align-items-center flex-wrap">
+                        <span class="pe-3 border-end border-dark">
+                            Phone Number: 956 742 455 678
+                        </span>
+
+                        <a href="mailto:info@ddsgnr.com"
+                            class="px-3 text-decoration-none text-black">Email:info@ddsgnr.com</a>
+                    </div>
+
+                    <!-- right side: social icons image -->
+                    <div class="ms-auto">
+                        <a href="#"><img src="assests/Social Links.png" alt="social media" height="16"></a>
+                    </div>
+                    <div class="ms-3 d-flex align-items-center gap-2">
+                        <div class="btn-group">
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <button class="btn btn dropdown-toggle" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        <img src="./assests/global.png" alt="">
+                                        English
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-dark">
+                                        <li><a class="dropdown-item" href="#">French</a></li>
+                                        <li><a class="dropdown-item" href="#">Spanish</a></li>
+                                        <li><a class="dropdown-item" href="#">German</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="btn-group">
+                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <img src="./assests/user.png" alt="">
+                                Sign in
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="mailto:info@ddsgnr.com">Phone number</a></li>
+                                <li><a class="dropdown-item" href="mailto:info@ddsgnr.com">Email</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="mailto:info@ddsgnr.com">Google</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-4">
+            <nav class="px-3 navbar navbar-expand-lg bg-white border-bottom border-dark">
+                <div class="container-fluid px-4">
+
+
+                    <button class="navbar-toggler border-0 order-1" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- logo -->
+                    <!-- <a class="navbar-brand d-flex align-items-center gap-2 fw-bold" href="#">
+                            <span><img src="assests/Frame 1.png" alt=""></span>
+                            Ddsgnr
+                        </a> -->
+
+                    <a class="navbar-brand d-flex align-items-center gap-2 fw-bold mx-auto mx-lg-0 order-2 order-lg-1"
+                        href="./index.html">
+                        <span><img src="assests/Frame 1.png" alt=""></span>
+                        Ddsgnr
+                    </a>
+
+                    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                            aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button> -->
+
+                    <button class="btn border-0 d-lg-none order-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#mobileSearch" aria-controls="mobileSearch" aria-expanded="false"
+                        aria-label="Open search">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                        </svg>
+                    </button>
+
+                    <div class="collapse w-100 order-5 d-lg-none mt-2" id="mobileSearch">
+                        <form action="search.html" method="get" role="search" class="input-group">
+                            <input class="form-control" type="search" name="q" placeholder="Search" aria-label="Search"
+                                required>
+                            <button class="btn btn-dark" type="submit" aria-label="Submit search">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+
+
+                    <div class="collapse navbar-collapse order-4 order-lg-2" id="mainNav">
+                        <ul class="navbar-nav nav-underline ms-auto align-items-lg-center gap-lg-3 small">
+                            <li class="nav-item">
+                                <a class="nav-link text-black border-bottom border-dark" aria-current="page"
+                                    href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link text-black" href="./welcome.html">Welcome</a></li>
+                            <li class="nav-item"><a class="nav-link text-black" href="./menu.html">Menu</a></li>
+                            <li class="nav-item"><a class="nav-link text-black" href="./contact.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link text-black"
+                                    href="./achievement.html">Achievements</a></li>
+                        </ul>
+
+                        <div class="d-flex align-items-center gap-2 ms-lg-4 mt-3 mt-lg-0">
+
+                            <form action="./payout.html" method="get" role="search" class="d-none d-lg-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search"
+                                    aria-label="Search" />
+                                <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+                            </form>
+                            <a href="#" class="btn btn-dark btn-sm px-3">Book a table</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+
+        <!--CHECKOUT SECTION-->
+        <section>
+            <div class="container p-0 py-5">
+                <div class="row g-0 px-3">
+
+                    <!-- LEFT: order summary -->
+                    <div class="col-lg-6 bg-white pt-4 pb-0 py-lg-5 px-3">
+                        <div class="row">
+                            <div class="col-md-10 col-lg-11 col-xl-9">
+
+                                <a href="#"
+                                    class="text-decoration-none text-body-secondary fw-medium d-inline-block mb-4"
+                                    onclick="history.back(); return false;">&larr; Checkout</a>
+
+                                <!-- mobile only: picture(s) of the chosen dish(es) -->
+                                <div id="cartThumbs"
+                                    class="d-flex justify-content-center gap-2 flex-wrap mb-3 d-lg-none"></div>
+
+                                <div class="small text-body-secondary text-center text-lg-start">
+                                    <span class="d-lg-none">Our Products</span>
+                                    <span class="d-none d-lg-inline">Pay Powdur</span>
+                                </div>
+                                <div class="fw-bold mb-2 mb-lg-4 text-center text-lg-start"><span class="fs-4">$</span>
+                                    <span class="fs-2" id="topTotal">0.00</span></div>
+
+                                <!-- mobile only: show / hide the dishes, the dish picker and the totals -->
+                                <button
+                                    class="btn btn-link btn-sm text-body-secondary text-decoration-none d-block mx-auto d-lg-none"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#orderDetails"
+                                    aria-expanded="false" aria-controls="orderDetails">Order details &#9662;</button>
+
+                                <!-- collapsed on mobile, always visible from the lg breakpoint up -->
+                                <div class="collapse d-lg-block mt-3 mt-lg-0" id="orderDetails">
+
+                                    <!-- the dishes in your order are rendered here by the script -->
+                                    <div id="cartItems"></div>
+
+                                    <!-- dish picker: choose any other dish before paying -->
+                                    <div class="mb-4">
+                                        <button class="btn btn-outline-dark btn-sm" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#dishList" aria-expanded="false"
+                                            aria-controls="dishList">
+                                            + Add another dish
+                                        </button>
+                                        <div class="collapse mt-3" id="dishList">
+                                            <div class="list-group" id="dishListGroup"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mt-4">
+                                        <div class="col-lg-9 ms-lg-auto small">
+                                            <div class="d-flex justify-content-between py-3">
+                                                <span class="fw-semibold">Subtotal</span><span
+                                                    id="subtotal">$0.00</span>
+                                            </div>
+                                            <div
+                                                class="d-flex justify-content-between py-3 border-top text-body-secondary">
+                                                <span>Sales tax (6.5%)</span><span id="tax">$0.00</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between py-3 border-top fw-semibold">
+                                                <span>Total due</span><span id="due">$0.00</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RIGHT: payment form -->
+                    <div class="col-lg-6 pt-4 pb-5 py-lg-5 px-3">
+                        <div class="row justify-content-lg-start">
+                            <div class="col-md-10 col-lg-11 col-xl-9">
+
+                                <button type="button" class="btn btn-dark w-100 py-2" aria-label="Pay with Apple Pay">
+                                    <img src="./assests/Apple Pay.png" alt="Apple Pay" height="20">
+                                </button>
+
+                                <div class="d-flex align-items-center gap-3 text-body-secondary small my-4">
+                                    <hr class="flex-grow-1 m-0"> Or pay with card
+                                    <hr class="flex-grow-1 m-0">
+                                </div>
+
+                                <form id="payForm" novalidate>
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label small fw-medium">Email</label>
+                                        <input type="email" class="form-control shadow-sm" id="email" name="email"
+                                            autocomplete="email" required>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="cardNumber" class="form-label small fw-medium">Country or
+                                            region</label>
+                                        <div class="input-group shadow-sm">
+                                            <input type="text" class="form-control rounded-bottom-0" id="cardNumber"
+                                                inputmode="numeric" autocomplete="cc-number"
+                                                placeholder="1234 1234 1234 1234" maxlength="19" required>
+                                            <span class="input-group-text bg-white rounded-bottom-0">
+                                                <img src="assests/Cards.png"
+                                                    alt="Visa, Mastercard, American Express, Discover" height="14">
+                                            </span>
+                                        </div>
+                                        <div class="input-group shadow-sm">
+                                            <input type="text" class="form-control rounded-top-0 border-top-0"
+                                                id="expiry" inputmode="numeric" autocomplete="cc-exp"
+                                                placeholder="MM / YY" maxlength="7" required>
+                                            <input type="text" class="form-control rounded-top-0 border-top-0" id="cvc"
+                                                inputmode="numeric" autocomplete="cc-csc" placeholder="CVC"
+                                                maxlength="4" required>
+                                            <span class="input-group-text bg-white rounded-top-0 border-top-0">
+                                                <img src="./assests/CVC Card.png" alt="CVC Card" height="14">
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="cardName" class="form-label small fw-medium">Name on card</label>
+                                        <input type="text" class="form-control shadow-sm" id="cardName"
+                                            autocomplete="cc-name" required>
+                                    </div>
+
+                                    <div class="mb-4">
+                                        <label for="country" class="form-label small fw-medium">Country or
+                                            region</label>
+                                        <select class="form-select rounded-bottom-0" id="country"
+                                            autocomplete="country-name">
+                                            <option>United States</option>
+                                            <option>Canada</option>
+                                            <option>United Kingdom</option>
+                                            <option>Nigeria</option>
+                                        </select>
+                                        <input type="text" class="form-control rounded-top-0 border-top-0" id="zip"
+                                            placeholder="ZIP" autocomplete="postal-code" required>
+                                    </div>
+
+                                    <!-- slate color set with Bootstrap's own button variables (no CSS file needed) -->
+                                    <button type="submit" id="payBtn" class="btn btn-dark w-100 py-2"
+                                        style="--bs-btn-bg:#474f6a; --bs-btn-border-color:#474f6a; --bs-btn-hover-bg:#3a415a; --bs-btn-hover-border-color:#3a415a;">
+                                        Pay $0.00
+                                    </button>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <script>
+            // ===== CHECKOUT LOGIC =====
+            (function () {
+                const TAX_RATE_PER_1000 = 65; // 6.5%
+                const MAX_QTY = 10;
+                const KEY = 'ddsgnrCart';
+                const money = c => (c / 100).toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+
+                // every dish that can be ordered (price in cents). Same ids as the ?dish=dN links on the menu.
+                const DISHES = {
+                    d1: { name: 'Bengali Cut (without Head)', price: 6200, img: 'assests/Image7.png' },
+                    d2: { name: 'Bengali Cut (without Head)', price: 6200, img: 'assests/Image(5).png' },
+                    d3: { name: 'Steaks Freshwater Rohu Small', price: 6200, img: 'assests/Image(4).png' },
+                    d4: { name: 'Medium Prawns - Without Tail Seer (Surmai)', price: 6200, img: 'assests/Image(3).png' },
+                    d5: { name: 'Premium Grade Mackerel (Cleaned)', price: 6200, img: 'assests/Image(2).png' },
+                    d6: { name: 'Basa Fillet (Platinum Grade)', price: 6200, img: 'assests/Image(6).png' }
+                };
+
+                // cart = { dishId: quantity }, remembered in the browser. null = nothing saved yet.
+                function loadCart() {
+                    try {
+                        const raw = localStorage.getItem(KEY);
+                        if (raw === null) return null;
+                        const c = JSON.parse(raw);
+                        return c && typeof c === 'object' ? c : {};
+                    } catch (e) { return null; }
+                }
+                function saveCart() { try { localStorage.setItem(KEY, JSON.stringify(cart)); } catch (e) { } }
+
+                // a dish can also arrive from the menu page as payout.html?dish=d3
+                const incoming = new URLSearchParams(location.search).get('dish');
+                const hasIncoming = !!(incoming && DISHES[incoming]);
+
+                let cart = loadCart();
+                // very first visit: start with the two dishes from the design (unless a dish was chosen on the menu)
+                if (cart === null) cart = hasIncoming ? {} : { d3: 1, d1: 2 };
+                Object.keys(cart).forEach(id => { if (!DISHES[id] || !(cart[id] > 0)) delete cart[id]; });
+                if (hasIncoming) {
+                    // the dish you clicked "Order Now" on goes to the top of the list, ahead of anything else
+                    const qty = Math.min((cart[incoming] || 0) + 1, MAX_QTY);
+                    delete cart[incoming];
+                    cart = Object.assign({ [incoming]: qty }, cart);
+                    try { history.replaceState(null, '', location.pathname); } catch (e) { } // so a refresh doesn't add it twice
+                }
+                saveCart();
+
+                const box = document.getElementById('cartItems');
+                const picker = document.getElementById('dishListGroup');
+                const thumbs = document.getElementById('cartThumbs');
+
+                function render() {
+                    const ids = Object.keys(cart);
+                    let subtotal = 0;
+                    thumbs.innerHTML = ids.map(id =>
+                        '<img src="' + DISHES[id].img + '" alt="' + DISHES[id].name + '" width="80" height="80" class="border rounded p-1 bg-white object-fit-contain">').join('');
+
+                    // dishes in the order
+                    if (!ids.length) {
+                        box.innerHTML = '<div class="py-3 small text-body-secondary">Your order is empty. Pick a dish below.</div>';
+                    } else {
+                        box.innerHTML = ids.map(id => {
+                            const d = DISHES[id], qty = cart[id], line = d.price * qty;
+                            subtotal += line;
+                            const options = Array.from({ length: MAX_QTY }, (_, i) =>
+                                '<option' + (i + 1 === qty ? ' selected' : '') + '>' + (i + 1) + '</option>').join('');
+                            return '<div class="d-flex align-items-start gap-3 mb-4" data-id="' + id + '">' +
+                                '<img src="' + d.img + '" alt="' + d.name + '" width="40" height="40" class="rounded-circle object-fit-cover">' +
+                                '<div class="flex-grow-1">' +
+                                '<div class="small fw-medium">' + d.name + '</div>' +
+                                '<div class="d-flex align-items-center small text-body-secondary">Qty ' +
+                                '<select class="qty-select form-select form-select-sm w-auto border-0 shadow-none bg-transparent py-0 text-body-secondary" aria-label="Quantity">' + options + '</select>' +
+                                '<button type="button" class="remove-btn btn btn-link btn-sm text-danger text-decoration-none p-0 ms-2">Remove</button>' +
+                                '</div></div>' +
+                                '<div class="text-end"><div class="fw-semibold">' + money(line) + '</div>' +
+                                '<div class="small text-body-secondary' + (qty > 1 ? '' : ' d-none') + '">' + money(d.price) + ' each</div></div>' +
+                                '</div>';
+                        }).join('');
+                    }
+
+                    // dish picker (shows how many of each dish are already in the order)
+                    picker.innerHTML = Object.keys(DISHES).map(id => {
+                        const d = DISHES[id], inOrder = cart[id] || 0;
+                        return '<div class="list-group-item d-flex align-items-center gap-3">' +
+                            '<img src="' + d.img + '" alt="" width="40" height="40" class="rounded-circle object-fit-cover">' +
+                            '<div class="flex-grow-1 small"><div class="fw-medium">' + d.name + '</div>' +
+                            '<div class="text-body-secondary">' + money(d.price) + '</div></div>' +
+                            (inOrder ? '<span class="badge text-bg-dark">' + inOrder + ' in order</span>' : '') +
+                            '<button type="button" class="add-dish btn btn-outline-dark btn-sm" data-id="' + id + '">Add</button>' +
+                            '</div>';
+                    }).join('');
+
+                    const tax = Math.round(subtotal * TAX_RATE_PER_1000 / 1000);
+                    const due = subtotal + tax;
+                    document.getElementById('subtotal').textContent = money(subtotal);
+                    document.getElementById('tax').textContent = money(tax);
+                    document.getElementById('due').textContent = money(due);
+                    document.getElementById('topTotal').textContent = (due / 100).toFixed(2);
+                    const pay = document.getElementById('payBtn');
+                    pay.textContent = 'Pay ' + money(due);
+                    pay.disabled = !ids.length;
+                }
+
+                box.addEventListener('change', e => {
+                    if (!e.target.matches('.qty-select')) return;
+                    cart[e.target.closest('[data-id]').dataset.id] = +e.target.value;
+                    saveCart(); render();
+                });
+                box.addEventListener('click', e => {
+                    const btn = e.target.closest('.remove-btn');
+                    if (!btn) return;
+                    delete cart[btn.closest('[data-id]').dataset.id];
+                    saveCart(); render();
+                });
+                picker.addEventListener('click', e => {
+                    const btn = e.target.closest('.add-dish');
+                    if (!btn) return;
+                    const id = btn.dataset.id;
+                    cart[id] = Math.min((cart[id] || 0) + 1, MAX_QTY);
+                    saveCart(); render();
+                });
+                render();
+
+                // card field formatting
+                document.getElementById('cardNumber').addEventListener('input', e => {
+                    e.target.value = e.target.value.replace(/\D/g, '').slice(0, 16).replace(/(.{4})/g, '$1 ').trim();
+                });
+                document.getElementById('expiry').addEventListener('input', e => {
+                    const d = e.target.value.replace(/\D/g, '').slice(0, 4);
+                    e.target.value = d.length > 2 ? d.slice(0, 2) + ' / ' + d.slice(2) : d;
+                });
+                document.getElementById('cvc').addEventListener('input', e => {
+                    e.target.value = e.target.value.replace(/\D/g, '').slice(0, 4);
+                });
+
+                document.getElementById('payForm').addEventListener('submit', e => {
+                    e.preventDefault();
+                    if (!e.target.checkValidity()) { e.target.reportValidity(); return; }
+                    alert('Form is valid. Connect a payment provider to process the payment.');
+                    // once payment really succeeds, clear the order:  cart = {}; saveCart(); render();
+                });
+            })();
+        </script>
+
+
+
+    </body>
+
+</html>
